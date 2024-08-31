@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media elements</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>About Me</h1>
+
+
+    <p>Hello! My name is Sabi'a Sani Jido a dedicated and passionate front end engineering student at Altschool Africa.
+      I love coding and exploring new technologies. My goal is to leverage my skills and knowledge to build intuitive,
+      user
+      friendly, and visully stunning interfaces that make a lasting impact. Here is a bit about me using various media
+      elements:</p>
+    <!-- picture element for responsive images -->
+    <picture>
+      <source srcset="/images/-image.jpg" media="(min-width: 1024px)">
+      <source srcset="/images/medium-image.jpg" media="(min-width: 768px)">
+      <source srcset="/images/small-image.jpg">
+      <img src="/media/mypic.jpg" alt="My picture">
+
+    </picture>
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Coding</li>
+      <li>Reading</li>
+      <li>exploring new technologies</li>
+    </ul>
+
+    <!--Audio element-->
+    <h2>This is my favorite audio</h2>
+    <audio controls>
+      <source src="/media/Thee_Sacred_Souls_-_Can_I_Call_You_Rose__Lyrics_(360p).mp4" type="audio/mpeg">
+
+      Your browser does not support the audio element
+    </audio>
+    <!--Video element-->
+    <h2>This is my favorite video</h2>
+    <video src="/media/myvid.mp4" width="500px" height="300px" controls>
+      <source src="video.mp3" type="video/mp3">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+    <!--canvas element-->
+    <h2>Canvas element</h2>
+    <canvas id="canvas" style="width: 200px; height: 100px; border: 1px solid black;">
+      your browser does not support does not support the canvas element
+    </canvas>
+    <!--iframe element-->
+    <h2>My project</h2>
+    <iframe width="110%" height="315" src="/form.html" frameborder="0"
+      allow="accelerometer:auto play; clipboard-write; encrypted-media; gyroscope;picture in picture" allowfullscreen>
+      your browser does not support iframes
+    </iframe>
+    <!--embed element-->
+    <h2>embed element</h2>
+    <embed src="/media/Thee_Sacred_Souls_-_Can_I_Call_You_Rose__Lyrics_(360p).mp4" type="audio/mp4" width="500px"
+      height="400px">
+    <!--element-->
+    <h2>Contact me</h2>
+    <p>Email: sabeeajeedorh@gmail.com</p>
+    <p>Linkedin: <a href="https://www.linkedin.com/Sabee'a Jeedorh">Sabee'a Jeedorh</a> </p>
+    <p>Github:
+      <a href="https://github.com/"> sabeeJeedorh</a>
+    </p>
+  </div>
+</body>
+
+</html>

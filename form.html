@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+
+
+</head>
+
+<body>
+    <header class="top-header">
+        <nav class="nav">
+            <p class="style_hyperlink">Already an AltSchooler? </p>
+            <a href="/auth/login">Sign In!</a>
+          
+        </nav>
+
+    </header>
+<main>
+    <section id="content-box">
+        <div class="row">
+            <div id="side-section">
+                <img src="media/altschlogo.png" alt="Learning Illustration">
+                <h1>Learn highly sought after skills without hassle.</h1>
+                <p>Tel 0800ALTSCHOOL</p>
+                &copy; 2024 Altschool Africa. All rights reserved.
+            </div>
+            <div class="col-md-6">
+                <form id="signup-form" action="Register">
+                    <h1 style="margin-bottom: 20px;">Signup</h1>
+                    <p id="signup"> Take the next steps to apply at AltSchool Africa</p>
+
+                        <form>
+                    <div class="form-row">
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="firstName">
+                                First Name</label>
+                            <input type="text" class="form-input" id="firstName" placeholder="Enter first name">
+                        </div>
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-input" id="lastName" placeholder="Enter last name">
+                        </div>
+                    </div>
+
+    
+                    <div class="form-row">
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="gender">Gender</label>
+                            <select id="gender" class="form-input" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="date">Date of Birth</label>
+                            <input id="date" type="date" class="form-input" required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" class="form-input" placeholder="Enter email address"
+                                required>
+                        </div>
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="email">Phone Number</label>
+                            <input id="email" type="Number" class="form-input" placeholder="08054307000" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="country">Country</label>
+                            <select id="country" class="form-input" required>
+                                <option value="">Select your country</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Benin Republic">Benin Republic</option>
+                                <option value="Congo">Congo</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Costa-Rica">Costa-Rica</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Benin Republic">Benin Republic</option>
+                                <option value="Congo">Congo</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Costa-Rica">Costa-Rica</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Benin Republic">Benin Republic</option>
+                                <option value="Congo">Congo</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Costa-Rica">Costa-Rica</option>
+                            </select>
+                        </div>
+
+                        
+                        <div class="form-group form-input-box col-md-6">
+                            <label for="state">Enter State/City of Residence
+                            <input id="state" type="text" class="form-input" placeholder="Enter State/City of residence"
+                                required>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                            <div class="form-group form-input-box col-md-12">
+                                <label for="channel">How did you hear about us?</label>
+                                <select id="channel" class="form-input" required>
+                                    <option value="whatsapp">WhatsApp</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="telegram">Telegram</option>
+                                    <option value="friend">Friend</option>
+                                    <option value="linkedin">LinkedIn</option>
+                                    <option value="instagram">Instagram</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        
+
+                            <div class="form-row">
+                                <div class="form-group form-input-box col-md-6">
+                                    <label for="password">Password</label>
+                                    <input id="password" type="password" class="form-input" placeholder="Enter password"
+                                        required>
+                                </div>
+                                <div class="form-group form-input-box col-md-6">
+                                    <label for="password">Confirm password</label>
+                                    <input id="password" type="password" class="form-input" placeholder="Enter password again" required>
+                                </div>
+                            </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="page2">
+        <a href="/index.html">Back to Biography</a>
+    </div>
+
+    <footer>
+        <p>By clicking continue, I agree to the <a href="#">Terms of Use</a> and acknowledge that I have read the <a
+                href="#">Privacy Policy.</a></p>
+
+
+    </footer>
+</main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
